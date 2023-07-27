@@ -1,0 +1,16 @@
+{
+  "sections": [
+    {
+      "id": "#about",
+      "name": "A propos"
+    },
+    {
+      "id": "#projects",
+      "name": "Projets"
+    },
+    {
+      "id": "#contact",
+      "name": "Contact"
+    }
+  ]
+}
