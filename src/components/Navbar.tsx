@@ -35,9 +35,9 @@ const NavBar = () => {
       <div className='text-[2rem] cursor-default'>Coralie Acquaert</div>
       <div className='relative inline-block'>
         <div className='w-8 h-6 cursor-pointer flex flex-col justify-around' id="hamburger-icon" onClick={() => toggleMenu()}>
-          <span className={`block h-0.5 w-full bg-black transition-transform duration-300 ease-in-out ${menuOpen ? 'tranform rotate-45' : 'transform-none'}`}></span>
+          <span className={`block h-0.5 w-full bg-black transition-transform duration-300 ease-in-out ${menuOpen ? 'tranform rotate-45 translate-y-2' : 'transform-none'}`}></span>
           <span className={`block h-0.5 w-full bg-black transition-opacity duration-300 ease-in-out ${menuOpen ? 'opacity-0' : 'opacity-1'}`}></span>
-          <span className={`block h-0.5 w-full bg-black transition-transform duration-300 ease-in-out ${menuOpen ? 'transform -rotate-45' : 'transform-none'}`}></span>
+          <span className={`block h-0.5 w-full bg-black transition-transform duration-300 ease-in-out ${menuOpen ? 'transform -rotate-45 -translate-y-2' : 'transform-none'}`}></span>
         </div>
 
         <div id="menu-links" className='absolute flex flex-col right-0 top-full bg-white w-fit max-h-0 overflow-hidden transition-all duration-300 ease-in-ou'>
