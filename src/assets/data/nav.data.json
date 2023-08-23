@@ -2,15 +2,15 @@
   "sections": [
     {
       "id": "#about",
-      "name": "A propos"
+      "name": "About"
     },
     {
       "id": "#skills",
-      "name": "Compétences"
+      "name": "Skills"
     },
     {
       "id": "#projects",
-      "name": "Projets"
+      "name": "Projects"
     },
     {
       "id": "#contact",
