@@ -5,6 +5,10 @@
       "name": "A propos"
     },
     {
+      "id": "#skills",
+      "name": "Compétences"
+    },
+    {
       "id": "#projects",
       "name": "Projets"
     },
