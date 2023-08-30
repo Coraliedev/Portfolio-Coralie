@@ -21,7 +21,7 @@ const NavBar = () => {
   }
 
   return (<>
-    <nav className='xl:flex justify-around items-center h-[17vh] hidden' id="desktop-nav">
+    <nav className='xl:flex justify-around items-center h-[17vh] hidden mb-[3vh]' id="desktop-nav">
       <div className='text-[2rem] cursor-default'>Coralie Acquaert</div>
       <ul className='gap-[2rem] text-[1.5rem] hidden xl:flex'>
         {navdata.sections.map((section) => (
