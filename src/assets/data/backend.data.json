@@ -1,0 +1,32 @@
+{
+  "backend": [
+    {
+      "name": "Node.js",
+      "experience": "Intermediate"
+    },
+    {
+      "name": "Express.js",
+      "experience": "Intermediate"
+    },
+    {
+      "name": "MongoDB",
+      "experience": "Intermediate"
+    },
+    {
+      "name": "MySQL",
+      "experience": "Basic"
+    },
+    {
+      "name": "JAVA",
+      "experience": "Basic"
+    },
+    {
+      "name": "Spring Boot",
+      "experience": "Basic"
+    },
+    {
+      "name": "Firebase",
+      "experience": "Intermediate" 
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "frontend": [
+    {
+      "name": "CSS",
+      "experience": "Intermediate"
+    },
+    {
+      "name": "TailwindCSS",
+      "experience": "Intermediate"
+    },
+    {
+      "name": "Javascript",
+      "experience": "Intermediate"
+    },
+    {
+      "name": "Typescript",
+      "experience": "Basic"
+    },
+    {
+      "name": "ReactJS",
+      "experience": "Intermediate"
+    },
+    {
+      "name": "VueJS",
+      "experience": "Basic"
+    }
+  ]
+}
