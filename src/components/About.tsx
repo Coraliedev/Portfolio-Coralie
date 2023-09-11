@@ -12,8 +12,8 @@ const About: React.FC = () => {
   }
 
   return (
-    <section id="about" className='relative' >
-      <p id="section__text__p1" className='font-semibold text-center text-xl mb-4 text-gray-600 mt-4'>Get to Know more</p>
+    <section id="about" className='relative section_padding section_height mx-10 box-border min-h-[fit-content]' >
+      <p id="section__text__p1" className='text-center text-xl mb-4 text-gray-600 mt-4'>Get to Know more</p>
       <p id="title" className='text-5xl text-center font-bold w-full mb-4'>About me</p>
       <div id="section-container" className='gap-8'>
         <div id="about-containers" className='gap-4 flex mb-4 mt-4 flex justify-center'>
@@ -23,7 +23,7 @@ const About: React.FC = () => {
             <p>1- year</p>
             <p> Web Development</p>
           </div>
-          <div id="details-container" className='flex flex-col text-center w-[30vw] flex bg-write rounded-[2rem] border-black border'>
+          <div id="details-container" className='flex flex-col text-center w-[30vw] bg-write rounded-[2rem] border-black border'>
             <img src={education} alt="education icon" id="icon" className='m-auto cursor-pointer h-8 w-8' />
             <h1 className='text-2xl text-center font-bold'>Education</h1>
             <p>Professional License in chemistry</p>
@@ -34,7 +34,7 @@ const About: React.FC = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis alias dolorem, fugit ipsum quasi officiis, minus dolor, saepe cum dignissimos inventore adipisci? Facere similique nam reprehenderit pariatur sunt. Ipsam, mollitia! Veritatis asperiores sed sit. Saepe, sit repellat, nulla, quidem magnam ab consequatur tenetur voluptate excepturi corrupti cum obcaecati nisi?</p>
         </div>
       </div>
-      <img src={arrow} alt="Arrow icon" className='cursor-pointer h-8 absolute right-[5rem] bottom-[2,5rem]' id="arrow" onClick={() => scrollToSkills("#skills")}/>
+      <img src={arrow} alt="Arrow icon" className='cursor-pointer h-8 absolute right-[5rem] bottom-9' id="arrow" onClick={() => scrollToSkills("#skills")}/>
     </section>
   );
 };
