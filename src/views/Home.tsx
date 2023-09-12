@@ -1,5 +1,6 @@
 import About from '../components/About';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';  
 import Profil from '../components/Profil';
 import Projects from '../components/Projects';
@@ -16,6 +17,7 @@ const Home = () => {
     <Skills />
     <Projects />
     <Contact />
+    <Footer />
     </>
 
   )
