@@ -16,7 +16,7 @@ const About: React.FC = () => {
       <p id="section__text__p1" className='text-center text-xl mb-4 text-gray-600 mt-4'>Get to Know more</p>
       <p id="title" className='text-5xl text-center font-bold w-full mb-4'>About me</p>
       <div id="section-container" className='gap-8'>
-        <div id="about-containers" className='gap-4 flex mb-4 mt-4 flex justify-center'>
+        <div id="about-containers" className='gap-4 flex mb-8 mt-28 flex justify-center'>
           <div id="details-container" className='flex flex-col justify-start w-[30vw] text-center border border-black p-[1,5rem] flex bg-write rounded-[2rem]'>
             <img src={experience} alt="experience icon" id="icon" className='m-auto cursor-pointer h-8 w-8' />
             <h1 className='text-2xl text-center font-bold'>Experience</h1>

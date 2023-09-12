@@ -11,7 +11,7 @@ const Skills: React.FC = () => {
     element?.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <section id="skills" className='block relative section_padding my-0 mx-40 box-border min-h-[fit-content]'>
+    <section id="skills" className='block relative section_padding section_height my-0 mx-40 box-border min-h-[fit-content]'>
       <p className='text-center text-xl mb-4 text-gray-600 mt-4'>Explore My</p>
       <p className='text-5xl text-center font-bold w-full mb-4'>Skills</p>
       <div id="experience_details_contaiiner" className='flex justify-center flex-col'>
