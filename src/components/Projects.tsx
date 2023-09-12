@@ -1,7 +1,12 @@
 import React from 'react';
 import allomovie from '../assets/images/allomovie.jpg';
+import arrow from '../assets/images/arrow.png';
 
 const Projects: React.FC = () => {
+  const scrollToContact = (id: string) => {
+    const element = document.querySelector(id);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <section id="projects" className='block relative section_padding section_height my-0 mx-40 box-border min-h-[fit-content]'>
       <p className='text-center text-xl mb-4 text-gray-600 mt-4'>Browse My Recent</p>
@@ -50,6 +55,7 @@ const Projects: React.FC = () => {
           </div>
         </div>
       </div>
+      <img src={arrow} alt="Arrow icon" className='cursor-pointer h-8 absolute right-[-5rem] bottom-9' id="arrow" onClick={() => scrollToContact("#contact")} />
     </section>
   );
 };
