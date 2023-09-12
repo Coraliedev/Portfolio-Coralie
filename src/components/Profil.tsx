@@ -13,7 +13,7 @@ const Profil: React.FC = () => {
 
 
   return (
-    <section id="profil" className='section_padding section_height mx-10 box-border min-h-min-content flex justify-center gap-20 h-[80vh]'>
+    <section id="profil" className='section_padding mx-10 box-border min-h-min-content flex justify-center gap-20 h-[80vh]'>
       <div className="section__pic-container flex h-[400px] w-[400px] my-auto mx-0">
         <img src={profilImg} alt="Coralie profile picture"/>
       </div>
