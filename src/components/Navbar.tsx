@@ -32,7 +32,7 @@ const NavBar = () => {
       </ul>
     </nav>
     <nav id="hambergur-nav" className='flex justify-around items-center h-[17vh] xl:hidden'>
-      <div className='text-[2rem] cursor-default'>Coralie Acquaert</div>
+      <div className='text-[1.5rem] cursor-default'>Coralie Acquaert</div>
       <div className='relative inline-block'>
         <div className='w-8 h-6 cursor-pointer flex flex-col justify-around' id="hamburger-icon" onClick={() => toggleMenu()}>
           <span className={`block h-0.5 w-full bg-black transition-transform duration-300 ease-in-out ${menuOpen ? 'tranform rotate-45 translate-y-2' : 'transform-none'}`}></span>
