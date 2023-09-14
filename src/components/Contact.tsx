@@ -4,7 +4,7 @@ import linkedin from '../assets/images/linkedin.png';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className='block relative section_padding my-0 mx-40 box-border min-h-[fit-content] flex justify-center flex-col h-[70vh] '>
+    <section id="contact" className='block relative section_padding my-0 mx-40 box-border min-h-fit flex justify-center flex-col h-[70vh] '>
       <p className='text-center text-xl mb-4 text-gray-600 mt-4' >Get in Touch</p>
       <h1 className='text-5xl text-center font-bold w-full mb-4'>Contact Me</h1>
       <div id="contact-info-upper-container" className='flex justify-center rounded-full border border-gray-400 my-8 p-2 w-fit m-auto'>
