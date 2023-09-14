@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
 
                 <article className='flex flex-wrap gap-2 w-40'>
                   <img src={checkmark} alt="experience icon" className=' h-8' />
-                  <div> <h3 className="text-xl font-bold text-start">{skill.name}</h3>
+                  <div> <h3 className="sm:text-xl text-lg font-bold text-start">{skill.name}</h3>
                     <p className='text-start text-gray-600'>{skill.experience}</p></div>
                 </article>
 
@@ -41,7 +41,7 @@ const Skills: React.FC = () => {
                   <article className='flex flex-wrap gap-2 w-40'>
                     <img src={checkmark} alt="experience icon" className=' h-8' />
                     <div>
-                      <h3 className="text-xl font-bold text-start">{skill.name}</h3>
+                      <h3 className="sm:text-xl text-lg font-bold text-start">{skill.name}</h3>
                       <p className='text-start'>{skill.experience}</p>
                     </div>
                     </article>

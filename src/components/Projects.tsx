@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
             <img src={allomovie} alt="project allomovie" id="project-img" className='rounded-2xl w-[350px]' />
           </div>
           <h2 className='font-semibold text-2xl mb-8 m-4 text-black'>Allomovie</h2>
-          <div className='flex justify-center gap-4'>
+          <div className='flex flex-wrap justify-center gap-4'>
             <button className='font-semibold transition-all duration-300 ease-in-out p-4 w-32 rounded-full bg-transparent text-black border border-gray-400' onClick={
               () => window.open('https://github.com/Coraliedev/IncubateurProject_AlloMovie')
             }>Github</button>
@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
             <img src={allomovie} alt="project allomovie" id="project-img" className='rounded-2xl w-[350px]' />
           </div>
           <h2 className='font-semibold text-2xl mb-8 m-4 text-black'>Allomovie</h2>
-          <div className='flex justify-center gap-4'>
+          <div className='flex flex-wrap justify-center gap-4'>
             <button className='font-semibold transition-all duration-300 ease-in-out p-4 w-32 rounded-full bg-transparent text-black border border-gray-400' onClick={
               () => window.open('https://github.com/Coraliedev/IncubateurProject_AlloMovie')
             }>Github</button>
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
             <img src={allomovie} alt="project allomovie" id="project-img" className='rounded-2xl w-[350px]' />
           </div>
           <h2 className='font-semibold text-2xl mb-8 m-4 text-black'>Allomovie</h2>
-          <div className='flex justify-center gap-4'>
+          <div className='flex flex-wrap justify-center gap-4'>
             <button className='font-semibold transition-all duration-300 ease-in-out p-4 w-32 rounded-full bg-transparent text-black border border-gray-400' onClick={
               () => window.open('https://github.com/Coraliedev/IncubateurProject_AlloMovie')
             }>Github</button>
