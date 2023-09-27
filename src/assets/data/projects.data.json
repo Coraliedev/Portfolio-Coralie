@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "name": "Allomovie",
+      "image": "./allomovie.jpg",
+      "github": "https://github.com/Coraliedev/IncubateurProject_AlloMovie",
+      "live": "https://incubateur-project-allo-movie.vercel.app/"
+    }
+  ]
+}

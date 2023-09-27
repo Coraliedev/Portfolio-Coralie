@@ -1,12 +1,14 @@
 import experience from '../assets/images/experience.png';
 import education from '../assets/images/education.png';
 import arrow from '../assets/images/arrow.png';
+import program from '../assets/programme.pdf';
+import schedule from '../assets/planning.pdf';
 
 const About: React.FC = () => {
 
 
 
-  function scrollToSkills(id: string){
+  function scrollToSkills(id: string) {
     const element = document.querySelector(id);
     element?.scrollIntoView({ behavior: "smooth" });
   }
@@ -30,8 +32,12 @@ const About: React.FC = () => {
             <p>License in chemistry</p>
           </div>
         </div>
-        <div>
-          <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis alias dolorem, fugit ipsum quasi officiis, minus dolor, saepe cum dignissimos inventore adipisci? Facere similique nam reprehenderit pariatur sunt. Ipsam, mollitia! Veritatis asperiores sed sit. Saepe, sit repellat, nulla, quidem magnam ab consequatur tenetur voluptate excepturi corrupti cum obcaecati nisi?</p>
+        <div className='flex flex-col gap-8 lg:text-xl text-lgl'>
+          <p className='text-justify lg:mx-20 mx-10'>After completing a full-stack JavaScript training and engaging in self-study, I am currently seeking a two-year apprenticeship to validate the title of Application Designer and Developer, while further enhancing my skills. The apprenticeship can commence as early as possible, and the training program begins in early November. Below, you will find the training schedule and its curriculum.
+
+          </p>
+          <button onClick={() => window.open(schedule)}>Training Schedule</button>
+          <button onClick={() => window.open(program)}>Training Program</button>
         </div>
       </div>
       <img src={arrow} alt="Arrow icon" className='cursor-pointer h-8 absolute right-[5rem] bottom-9 hidden xl:block' id="arrow" onClick={() => scrollToSkills("#skills")} />
