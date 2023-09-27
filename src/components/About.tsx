@@ -32,12 +32,12 @@ const About: React.FC = () => {
             <p>License in chemistry</p>
           </div>
         </div>
-        <div className='flex flex-col gap-8 lg:text-xl text-lgl'>
+        <div className='flex flex-col lg:gap-8 gap-4 lg:text-xl text-lgl'>
           <p className='text-justify lg:mx-20 mx-10'>After completing a full-stack JavaScript training and engaging in self-study, I am currently seeking a two-year apprenticeship to validate the title of Application Designer and Developer, while further enhancing my skills. The apprenticeship can commence as early as possible, and the training program begins in early November. Below, you will find the training schedule and its curriculum.
 
           </p>
-          <button onClick={() => window.open(schedule)}>Training Schedule</button>
-          <button onClick={() => window.open(program)}>Training Program</button>
+          <button onClick={() => window.open(schedule)} className='font-semibold'>Training Schedule</button>
+          <button onClick={() => window.open(program)} className='font-semibold'>Training Program</button>
         </div>
       </div>
       <img src={arrow} alt="Arrow icon" className='cursor-pointer h-8 absolute right-[5rem] bottom-9 hidden xl:block' id="arrow" onClick={() => scrollToSkills("#skills")} />
